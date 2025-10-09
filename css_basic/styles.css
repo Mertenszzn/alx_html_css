@@ -16,3 +16,87 @@ aside {
     flex:1;
     overflow-y: auto;
 }   
+/* styles.css */
+
+/* --------------- General --------------- */
+body {
+  background-color: #f8fafc;
+  color: #333;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* --------------- Header --------------- */
+header {
+  background-color: #0a74da;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+/* --------------- Logo --------------- */
+.logo {
+  font-size: 1.8em;
+  margin-right: 15px;
+}
+
+/* --------------- Navigation Menu --------------- */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* --------------- Article/Main Section --------------- */
+article, main, section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --------------- Buttons --------------- */
+button {
+  background-color: #0a74da;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #084e9e;
+}
+
+/* --------------- Footer --------------- */
+footer {
+  background-color: #0a74da;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
