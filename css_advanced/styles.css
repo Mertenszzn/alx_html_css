@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 80px;
+}
+
+body{
+    font-family: 'source sans pro', sans-serif;
+    color: white;
+    background-color: #071629;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img {
+    width: 50px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font_weight: 600;
+
+}
+
+header a:hover {
+    color: #4c5e0a;
+}
